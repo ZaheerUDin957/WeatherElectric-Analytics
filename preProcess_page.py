@@ -118,7 +118,7 @@ def show():
 
     # Load Data
     df = pd.read_csv('electric load.csv')
-    df = df.head(5000)
+    df = df.head(2000)
 
     # Convert 'Date' column to datetime
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
