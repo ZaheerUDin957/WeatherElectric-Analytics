@@ -6,7 +6,7 @@ import plotly.express as px
 
 from styles import overall_css
 
-df = pd.read_csv('df_cleaned.csv')
+df = pd.read_csv('Updated_df_cleaned.csv')
 
 def show():
     st.markdown(overall_css, unsafe_allow_html=True)
