@@ -11,7 +11,7 @@ st.set_page_config(page_title="WeatherElectric Analytics", layout="wide")
 st.markdown(overall_css, unsafe_allow_html=True)
 
 # Main title
-st.title('System Load Predictor App')
+st.title('WeatherElectric Analytics')
 
 # Create a grid layout with three columns for the buttons
 col1, col2, col3 = st.columns(3)
